@@ -3,8 +3,8 @@ import time
 from models.terminscraper import TerminScraper
 
 links = ["https://otv.verwalt-berlin.de/ams/TerminBuchen?lang=en"]
-PAGE_TIMEOUT = 25
-TIMEOUT = 15
+PAGE_TIMEOUT = 45
+TIMEOUT = 25
 
 def run_sequential():
     scraper = TerminScraper(url=links[0], 

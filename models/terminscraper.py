@@ -53,7 +53,7 @@ class TerminScraper(GenericWebScraper):
         """"
         set the country from the dropdown menu
         """
-        elementXpath = '/html/body/div[2]/div[2]/div[4]/div[2]/form/div[2]/div/div[2]/div[8]/div[1]/div[2]/div[1]/fieldset/div[2]/select'
+        elementXpath = '//*[@id="xi-sel-400"]'
         elementName = "Citizenship"
         return self.find_and_select_element( elementXpath, elementName, "461")
 
