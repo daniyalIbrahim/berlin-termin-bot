@@ -102,13 +102,6 @@ class TerminScraper(GenericWebScraper):
         elementXpath = '//*[@id="applicationForm:managedForm:proceed"]'
         elementName = "next button"
         return self.find_and_click_element( elementXpath, elementName)
-
-    def check_availability(self):
-        elementXpath = '/html/body/div[2]/div[2]/div[3]/ul/li/'
-        elementName = "next button"
-        element = self.find_and_click_element( elementXpath, elementName)
-        if element is not None:
-            infoLogger.info(f"{element.text}")
     
     def handle_error(self):
         # Check Error Message
@@ -119,7 +112,6 @@ class TerminScraper(GenericWebScraper):
                 if(self.driver.find_element_by_class_name("errorMessage")):
                     infoLogger.info(
                         f"No appointment, starting to process again in {self.time_out} seconds ...")
-                    self.check_availability()
                     time.sleep(self.time_out)
                     return False
                 if(pageTimer > self.page_timeout):

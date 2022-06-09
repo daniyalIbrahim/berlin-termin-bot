@@ -417,3 +417,48 @@
 23:13:31,INFO,Succeded to find the element Applications Count
 23:13:33,INFO,Succeded to select value: 1
 23:13:33,INFO,Succeded to find the element Family member
+23:13:35,INFO,Succeded to select value: 2
+23:13:35,INFO,Looking for the element: set visa group
+23:13:36,INFO,Succeded to find the element set visa group
+23:13:38,INFO,Succeded to click set visa group
+23:13:38,INFO,Looking for the element: set visa type
+23:13:39,INFO,Succeded to find the element set visa type
+23:13:41,INFO,Succeded to click set visa type
+23:13:41,INFO,Looking for the element: click blue card
+23:13:42,INFO,Succeded to find the element click blue card
+23:13:44,INFO,Succeded to click click blue card
+23:13:44,INFO,Succeded to find the element next button
+23:13:46,INFO,Succeded to click next button
+23:13:46,INFO,Page is loading
+23:13:48,INFO,Page is loading
+23:13:49,INFO,Page is loading
+23:13:50,INFO,Page is loading
+23:13:51,INFO,No appointment, starting to process again in 15 seconds ...
+23:13:51,INFO,Looking for the element: next button
+23:13:52,INFO,Looking for the element: next button
+23:13:53,INFO,Looking for the element: next button
+23:13:54,INFO,Looking for the element: next button
+23:13:55,INFO,Looking for the element: next button
+23:13:56,INFO,Looking for the element: next button
+23:13:58,INFO,Looking for the element: next button
+23:13:59,INFO,Looking for the element: next button
+23:14:00,INFO,Looking for the element: next button
+23:14:01,INFO,Looking for the element: next button
+23:14:02,INFO,Looking for the element: next button
+23:14:03,INFO,Looking for the element: next button
+23:14:04,INFO,Looking for the element: next button
+23:14:05,INFO,Looking for the element: next button
+23:14:06,INFO,Looking for the element: next button
+23:14:07,INFO,Looking for the element: next button
+23:14:08,INFO,Looking for the element: next button
+23:14:09,INFO,Looking for the element: next button
+23:14:10,INFO,Looking for the element: next button
+23:14:11,INFO,Looking for the element: next button
+23:14:12,INFO,Looking for the element: next button
+23:14:13,INFO,Looking for the element: next button
+23:14:14,INFO,Looking for the element: next button
+23:14:15,INFO,Looking for the element: next button
+23:14:16,INFO,Looking for the element: next button
+23:14:17,INFO,Looking for the element: next button
+23:14:18,INFO,Looking for the element: next button
+23:14:18,INFO,Failed to load the page withim limit
